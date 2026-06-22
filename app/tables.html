@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tablas</title>
+    <meta name="description" content="Hoja de vida profesional de Luna Aguas Mejia, estudiante de Análisis y Desarrollo de Software en Medellín.
+     Especialista en HTML, CSS y lógica de programación.">
+
+    <link rel="shortcut icon" href="../assets/img/perfil.webp" type="image/x-icon">
+
+    <!--SEO Tags -->
+    <meta name="author" content="Luna Aguas Mejia">
+    <meta name="description" content="Hoja de vida profesional de Luna Aguas, estudiante de Análisis y Desarrollo de Software
+     en Medellín, experta en HTML, CSS y lógica de programación.">
+    <meta name="keywords" content="TALLER, taller, Taller">
+
+    <!--Optimization Tags-->
+    <meta name="theme-color" content="#000000">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-traslucent">
+
+    <!--Boostrap CSS cdn-->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">-->
+    <!-- bootstrap Icons cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!--Boostrap CSS local-->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <!--Nabvar prioncipL-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+            <div class="container">
+                <a class="navbar-brand fw-bold fs-4" href="#">
+                    <i class="bi bi-laptop"></i>
+                    LunaSoft
+                </a>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir menú de navegación">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi bi-house-door"></i> Inicio
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                <i class="bi bi-folder"></i> Módulos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="bi bi-filetype-html"></i> HTML
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="bi bi-filetype-css"></i> CSS
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="bi bi-bootstrap"></i> Bootstrap
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi bi-search"></i> Consultas
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi bi-headset"></i> Soporte
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-primary rounded-pill">
+                        <i class="bi bi-person-circle"></i> Acceder
+                    </button>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid py-5 bg-light">
+        <div class="table-responsive shadow rounded">
+            <table class="table table-hover table-striped table-bordered border-primary align-middle text-center">
+                <thead class="table-dark">
+                    <h2 class="text-center mb-4">Tabla de empleados</h2>
+                    <tr>
+                        <th>#</th>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Edad</th>
+                        <th>Ciudad</th>
+                        <th>País</th>
+                        <th>Cargo</th>
+                        <th>Salario</th>
+                        <th>Estado</th>
+                    </tr>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>EMP001</td>
+                        <td>Juan</td>
+                        <td>Pérez</td>
+                        <td>28</td>
+                        <td>Medellín</td>
+                        <td>Colombia</td>
+                        <td>Analista</td>
+                        <td>$3.200.000</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>EMP002</td>
+                        <td>María</td>
+                        <td>Gómez</td>
+                        <td>32</td>
+                        <td>Bogotá</td>
+                        <td>Colombia</td>
+                        <td>Diseñadora</td>
+                        <td>$3.800.000</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>EMP003</td>
+                        <td>Carlos</td>
+                        <td>Ramírez</td>
+                        <td>27</td>
+                        <td>Cali</td>
+                        <td>Colombia</td>
+                        <td>Desarrollador</td>
+                        <td>$4.500.000</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>EMP004</td>
+                        <td>Laura</td>
+                        <td>Torres</td>
+                        <td>30</td>
+                        <td>Barranquilla</td>
+                        <td>Colombia</td>
+                        <td>Contadora</td>
+                        <td>$3.900.000</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>EMP005</td>
+                        <td>Andrés</td>
+                        <td>Castro</td>
+                        <td>35</td>
+                        <td>Bucaramanga</td>
+                        <td>Colombia</td>
+                        <td>Ingeniero</td>
+                        <td>$5.600.000</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>EMP006</td>
+                        <td>Sofía</td>
+                        <td>Rojas</td>
+                        <td>24</td>
+                        <td>Pereira</td>
+                        <td>Colombia</td>
+                        <td>Asistente</td>
+                        <td>$2.300.000</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>EMP007</td>
+                        <td>Miguel</td>
+                        <td>Herrera</td>
+                        <td>38</td>
+                        <td>Cartagena</td>
+                        <td>Colombia</td>
+                        <td>Gerente</td>
+                        <td>$8.200.000</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>EMP008</td>
+                        <td>Daniela</td>
+                        <td>López</td>
+                        <td>29</td>
+                        <td>Manizales</td>
+                        <td>Colombia</td>
+                        <td>Programadora</td>
+                        <td>$4.700.000</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>EMP009</td>
+                        <td>Felipe</td>
+                        <td>Moreno</td>
+                        <td>31</td>
+                        <td>Ibagué</td>
+                        <td>Colombia</td>
+                        <td>Soporte TI</td>
+                        <td>$3.100.000</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>EMP010</td>
+                        <td>Camila</td>
+                        <td>Díaz</td>
+                        <td>26</td>
+                        <td>Neiva</td>
+                        <td>Colombia</td>
+                        <td>Marketing</td>
+                        <td>$3.400.000</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>EMP011</td>
+                        <td>Nicolás</td>
+                        <td>Vargas</td>
+                        <td>34</td>
+                        <td>Armenia</td>
+                        <td>Colombia</td>
+                        <td>Analista</td>
+                        <td>$4.100.000</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>EMP012</td>
+                        <td>Valentina</td>
+                        <td>Silva</td>
+                        <td>23</td>
+                        <td>Pasto</td>
+                        <td>Colombia</td>
+                        <td>Practicante</td>
+                        <td>$1.500.000</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>EMP013</td>
+                        <td>Santiago</td>
+                        <td>Ruiz</td>
+                        <td>36</td>
+                        <td>Santa Marta</td>
+                        <td>Colombia</td>
+                        <td>Arquitecto</td>
+                        <td>$6.000.000</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>EMP014</td>
+                        <td>Paula</td>
+                        <td>Medina</td>
+                        <td>28</td>
+                        <td>Cúcuta</td>
+                        <td>Colombia</td>
+                        <td>Diseñadora UX</td>
+                        <td>$4.300.000</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>EMP015</td>
+                        <td>David</td>
+                        <td>Mendoza</td>
+                        <td>40</td>
+                        <td>Villavicencio</td>
+                        <td>Colombia</td>
+                        <td>Director TI</td>
+                        <td>$9.500.000</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>EMP016</td>
+                        <td>Sara</td>
+                        <td>Ortiz</td>
+                        <td>27</td>
+                        <td>Sincelejo</td>
+                        <td>Colombia</td>
+                        <td>Recursos Humanos</td>
+                        <td>$3.700.000</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>EMP017</td>
+                        <td>Kevin</td>
+                        <td>Jiménez</td>
+                        <td>25</td>
+                        <td>Montería</td>
+                        <td>Colombia</td>
+                        <td>Desarrollador</td>
+                        <td>$4.000.000</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td>EMP018</td>
+                        <td>Juliana</td>
+                        <td>Salazar</td>
+                        <td>33</td>
+                        <td>Popayán</td>
+                        <td>Colombia</td>
+                        <td>Administradora</td>
+                        <td>$4.600.000</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td>EMP019</td>
+                        <td>Sebastián</td>
+                        <td>Giraldo</td>
+                        <td>29</td>
+                        <td>Tunja</td>
+                        <td>Colombia</td>
+                        <td>Administrador BD</td>
+                        <td>$5.000.000</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>EMP020</td>
+                        <td>Natalia</td>
+                        <td>Muñoz</td>
+                        <td>31</td>
+                        <td>Riohacha</td>
+                        <td>Colombia</td>
+                        <td>QA Tester</td>
+                        <td>$4.200.000</td>
+                        <td>Activo</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
