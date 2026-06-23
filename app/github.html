@@ -43,51 +43,10 @@
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir menú de navegación">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="bi bi-house-door"></i> Inicio
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
-                                <i class="bi bi-folder"></i> Módulos
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="#">
-                                        <i class="bi bi-filetype-html"></i> HTML
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">
-                                        <i class="bi bi-filetype-css"></i> CSS
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">
-                                        <i class="bi bi-bootstrap"></i> Bootstrap
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="bi bi-search"></i> Consultas
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="bi bi-headset"></i> Soporte
-                            </a>
-                        </li>
-                    </ul>
-                    <button class="btn btn-primary rounded-pill">
-                        <i class="bi bi-person-circle"></i> Acceder
-                    </button>
-                    </button>
-                </div>
+                <a href="../index.html" class="btn btn-primary rounded-pill">
+                    <i class="bi bi-house-door"></i> Inicio
+                </a>
+            </div>
             </div>
         </nav>
     </header>
@@ -221,7 +180,7 @@
                     <div class="card text-center shadow h-100">
                         <div class="card-body">
                             <i class="bi bi-laptop fs-1 text-primary"></i>
-                            <h5 class="mt-3">Visual Studio Code</h5>
+                            <h3 class="mt-3">Visual Studio Code</h3>
                         </div>
                     </div>
                 </div>
@@ -229,7 +188,7 @@
                     <div class="card text-center shadow h-100">
                         <div class="card-body">
                             <i class="bi bi-git fs-1 text-danger"></i>
-                            <h5 class="mt-3">Git</h5>
+                            <h3 class="mt-3">Git</h3>
                         </div>
                     </div>
                 </div>
@@ -237,7 +196,7 @@
                     <div class="card text-center shadow h-100">
                         <div class="card-body">
                             <i class="bi bi-github fs-1"></i>
-                            <h5 class="mt-3">GitHub</h5>
+                            <h3 class="mt-3">GitHub</h3>
                         </div>
                     </div>
                 </div>
@@ -245,7 +204,7 @@
                     <div class="card text-center shadow h-100">
                         <div class="card-body">
                             <i class="bi bi-wifi fs-1 text-success"></i>
-                            <h5 class="mt-3">Internet</h5>
+                            <h3 class="mt-3">Internet</h3>
                         </div>
                     </div>
                 </div>
@@ -260,17 +219,17 @@
                     </h2>
                 </div>
                 <div class="card-body">
-                    <h5>Paso 1: Inicializar Git</h5>
+                    <h3>Paso 1: Inicializar Git</h3>
                     <pre class="bg-dark text-light p-3 rounded">
 git init
             </pre>
-                    <h5>Paso 2: Configurar Usuario</h5>
+                    <h3>Paso 2: Configurar Usuario</h3>
                     <pre class="bg-dark text-light p-3 rounded">
 git config --global user.name "Tu Nombre"
 
 git config --global user.email "correo@gmail.com"
             </pre>
-                    <h5>Paso 3: Verificar Configuración</h5>
+                    <h3>Paso 3: Verificar Configuración</h3>
 
                     <pre class="bg-dark text-light p-3 rounded">
 git config --global --list
@@ -314,7 +273,7 @@ git push -u origin main
                     <div class="card shadow h-100">
                         <div class="card-body">
                             <i class="bi bi-file-earmark-code fs-1 text-primary"></i>
-                            <h6>Proyecto</h6>
+                            <h3>Proyecto</h3>
                         </div>
                     </div>
                 </div>
@@ -322,7 +281,7 @@ git push -u origin main
                     <div class="card shadow h-100">
                         <div class="card-body">
                             <i class="bi bi-terminal fs-1 text-success"></i>
-                            <h6>Git Init</h6>
+                            <h3>Git Init</h3>
                         </div>
                     </div>
                 </div>
@@ -330,7 +289,7 @@ git push -u origin main
                     <div class="card shadow h-100">
                         <div class="card-body">
                             <i class="bi bi-plus-circle fs-1 text-warning"></i>
-                            <h6>Git Add</h6>
+                            <h3>Git Add</h3>
                         </div>
                     </div>
                 </div>
@@ -338,7 +297,7 @@ git push -u origin main
                     <div class="card shadow h-100">
                         <div class="card-body">
                             <i class="bi bi-check-circle fs-1 text-info"></i>
-                            <h6>Commit</h6>
+                            <h3>Commit</h3>
                         </div>
                     </div>
                 </div>
@@ -346,7 +305,7 @@ git push -u origin main
                     <div class="card shadow h-100">
                         <div class="card-body">
                             <i class="bi bi-upload fs-1 text-danger"></i>
-                            <h6>Push</h6>
+                            <h3>Push</h3>
                         </div>
                     </div>
                 </div>
@@ -354,7 +313,7 @@ git push -u origin main
                     <div class="card shadow h-100">
                         <div class="card-body">
                             <i class="bi bi-github fs-1"></i>
-                            <h6>GitHub</h6>
+                            <h3>GitHub</h3>
                         </div>
                     </div>
                 </div>
